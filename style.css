@@ -190,10 +190,11 @@ margin-top: 21px;
 .course{
     margin-left: 30px;
     border: 1px solid whitesmoke;
+    
     box-shadow: 10px 10px 10px whitesmoke;
     border-radius: 15px;
  
-}
+} 
 .orng{
     color: #ED6B4F;
 }
@@ -225,3 +226,47 @@ span{
  .left{
      margin-right: 36px;
  }
+
+
+@media only screen and (max-width:688px) {
+    section{
+        width: 100%;
+    }
+    .top-player{
+        text-align: center;
+    }
+    .bloger{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+hr{
+    width: 600px;
+}
+nav ul{
+    width: 650px;
+}
+.allinone{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.course{
+    width: 300px;
+    margin-bottom: 50px;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
