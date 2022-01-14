@@ -229,15 +229,22 @@ span{
 
 
 @media only screen and (max-width:688px) {
+   
+    nav{
+        width: 100%;
+    }
     section{
         width: 100%;
     }
-    .top-player{
+    
+    .main-player{
+        grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
     .bloger{
-        display: grid;
+       
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
     }
 hr{
     width: 600px;
