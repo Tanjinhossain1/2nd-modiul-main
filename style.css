@@ -2,7 +2,7 @@
 
 body{ 
     margin: 0;
-    background: #E5E5E5;
+    background: #F3F1FF;
 }
 
 
@@ -54,7 +54,7 @@ li a{
 .thstart img{
     Width:51px;
     Height:51px;
-    margin-Top: 15px;
+    margin-Top: 22px;
     margin-left: 36px;
 }
 .link{
@@ -81,11 +81,12 @@ main{
     flex-direction: column;
     align-items: center;
     
+    
 }
 section{
-    background-color: #FFFFFF;
+    
     border-radius: 5px;
-    height: 679px;
+    background-color: #FFFFFF;
     width: 870px;
     
 }
@@ -98,6 +99,7 @@ section{
     padding-top: 3px;
     padding-bottom: 40px;
 }
+
 .player{
     
     display: flex; 
@@ -119,23 +121,107 @@ hr{
     grid-row-gap: 29px;
     padding-bottom: 30px;
     margin-left: 30px;
+    
 }
 /*------------- 
     top blog
  -------------*/
+ .main-blog{
+    margin-bottom: 42px;
+ }
+ .bloger{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     
+ }
  .blogs{
      margin-left: 30px;
+     display: flex;
+    
  }
  .blog img{
      width: 177px;
      height: 117px;
-     
+     padding-top: 26px;  
+ }
+.top{
+    padding: 30px;
+ color: #562EFF;
+ font-size: 24px;
+ padding-top: 3px;
+ 
+}
+p{
+    color: #9F9F9F;
+}
+p a{
+     text-decoration: none;
+     color: blue;
+ }
+ .text{
+     margin-left: 16px;
+     margin-top: 20px;
  }
 
+ /*----------
+ Top course
+  -----------*/
+  .latest-course{
+      margin-bottom: 22px;
+  }
+.another-section{
+margin-top: 21px;
 
-
-
-
-
-
+}
+.later{
+    padding: 30px;
+ color: #562EFF;
+ font-size: 24px;
+ padding-top: 3px;
+}
+.allinone{
+    display: flex;
+    
+}
+.main-box img{
+    width: 224px;
+    height: 105px;
+}
+.course{
+    margin-left: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 10px 10px 10px whitesmoke;
+    border-radius: 15px;
  
+}
+.orng{
+    color: #ED6B4F;
+}
+.star{
+    color: #FFC014;
+ 
+}
+span{
+    color: #A2A2A2;
+    margin-left: 10px;
+}
+.emty{
+    color: #AEAEAE;
+}
+ #clock{
+     margin-left: 30px;
+     background-color: #FFE4E8;
+     border-radius: 15px;
+     padding: 5px;
+     color: #FF4A60;
+ }
+ .cute{
+     display: flex;
+ }
+ .right{
+     margin-left: 30px;
+   
+ }
+ .left{
+     margin-right: 36px;
+ }
