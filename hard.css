@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: rgb(243, 230, 243);
+}
+/* navigation var */
+nav{
+
+    background-color: rgba(74, 74, 247, 0.932);
+    height: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+.mesenger a {
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+.meenger{
+    margin-right: 800px;
+    font-size: 25px;
+   
+}
+.meenger a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    padding-top: 20px;
+   
+}
+ul a {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+ul li {
+    color: whitesmoke;
+}
+.link a{
+    display: block;
+}
+ul li:hover {
+    color: gray;
+    background-color: gray;
+}
+.link{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover .link{
+    display: block;
+}
+/* latest course
+ */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.real img{
+    Width: 224px;
+    Height:104px;
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 870px;
+}
+.real{
+    box-shadow: 10px 10px 10px whitesmoke;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+   
+}
+.container{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 30px;
+   
+}
+.java{
+    display: flex;
+}
+p i{
+   flex-direction: column;
+    padding: 3px;
+    background-color: pink;
+    border-radius: 15px;
+}
+span{
+    color: 
+    #A2A2A2;
+    margin-left: 8px;
+}
+.color{
+    background-color: pink;
+    text-align:end;
+    margin-left:30px ;
+    border-radius: 15px;
+}
+.star{
+    color:  #FFC014;
+}
+.stary{
+    color: 
+    #AEAEAE;
+}
+.latest{
+    margin-left: 20px;
+    color: blue;
+    font-size: 25px;
+}
+hr{
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+/* top player */
+.players img{
+    width: 56px;
+    height: 56px;
+    margin-top: 30px;
+}
+.main-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players{
+    display: flex;
+   
+}
+.text{
+    margin: 20px;
+    margin-top: 45px;
+}
+.late{
+    margin-left: 10px;
+    color: blue;
+    font-size: 25px;
+    margin-top: 16px;
+}
+#hor{
+    margin: 25px;
+    width: 500px;
+    margin-left: 190px;
+}
+#hhor{
+    margin:20px;
+    width: 700px;
+    margin-left: 100px;
+}
+
+
+

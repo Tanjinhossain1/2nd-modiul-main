@@ -129,6 +129,7 @@ hr{
  .main-blog{
     margin-bottom: 42px;
  }
+ 
  .bloger{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -230,8 +231,10 @@ span{
 
 @media only screen and (max-width:688px) {
    
-    nav{
+    nav ul{
         width: 100%;
+       
+        
     }
     section{
         width: 100%;
