@@ -158,7 +158,9 @@ hr{
     margin: 25px;
     width: 500px;
     margin-left: 190px;
+    
 }
+
 #hhor{
     margin:20px;
     width: 700px;
@@ -167,3 +169,38 @@ hr{
 
 
 
+/* Top blog */
+
+.blogs{
+    display:flex;
+    padding: 10px;
+}
+.bloging{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bloger a{
+    text-decoration: none;
+    color: blue;
+}
+.Top-blog{
+    margin-bottom: 42px;
+ }
+ .bloger{
+    margin: 20px;
+}
+.blog img{
+    width: 220px;
+    height: 117px;
+}
+.by{
+    color: #A2A2A2;
+    margin-top: 20px;
+}
+.top{
+    margin-left: 10px;
+    color: blue;
+    font-size: 25px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
